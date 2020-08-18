@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\ProgramData\\Miniconda3\\envs\\wordfinder\\python.exe"
+    "python.pythonPath": "C:\\ProgramData\\Miniconda3\\envs\\wordfinder\\python.exe",
+    "python.formatting.provider": "black"
 }

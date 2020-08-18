@@ -28,4 +28,11 @@ def drop_char_index(s, i):
 
 
 def recurse(word):
-    
+    if word in ('a', 'i'):
+        return word
+    l = len(word)
+    for i in range(l):
+        nWord = drop_char_index(word,i)
+        if nWord in words.words():
+            bleh = recurse(nWord)
+        else
